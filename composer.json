@@ -1,0 +1,10 @@
+{
+  "name": "learn/php",
+  "description": "new php project template",
+  "type": "template",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
