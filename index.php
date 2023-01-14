@@ -1,4 +1,6 @@
 <?php
+// Composer class autoloader
+require_once __DIR__ . '/vendor/autoload.php';
 
-// Remove this later
-echo "Welcome to PHP";
+//Remove it later
+echo '<h1 style="text-align: center">Welcome to PHP</h1>';
