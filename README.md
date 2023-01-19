@@ -1,4 +1,7 @@
 # New PHP project template
+
+# https://github.com/VadimsMalickis/php-template
+
 ### Structure description:
 - index.php (application entry point)
 - put application code inside **src** folder
