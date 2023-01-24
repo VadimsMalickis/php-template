@@ -10,7 +10,7 @@
 
 
 
-### Before run project, use console command inside your project folder:
+### Before run project, use console commands:
 - ```cd <project_folder```
 - ```composer install```
 
