@@ -6,5 +6,20 @@
     "psr-4": {
       "App\\": "src/"
     }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "scripts": {
+    "serve": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:0 -t public"
+    ],
+    "test": "./vendor/bin/phpunit --testdox"
+  },
+  "scripts-descriptions": {
+    "serve": "Starts PHP development web server on a random (unused) port.",
+    "test": "Runs unit tests."
   }
 }
