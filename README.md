@@ -3,17 +3,36 @@
 # https://github.com/VadimsMalickis/php-template
 
 ### Structure description:
-- index.php (application entry point)
+- public/index.php (application entry point)
 - put application code inside **src** folder
 - put your HTML templates inside **views** folder
-- .htaccess file (for Xampp and Laragon users)
+- put assets inside **public/assets** folder
+
+## Installation
 
 
+**1. Clone this repository into your local machine:**
 
-### Before run project, use console commands:
-- ```cd <project_folder>```
-- ```composer install```
+```shell
+git clone git@github.com:VadimsMalickis/php-template.git
+```
 
+**2. Go to the project folder:**
 
-### Use if only PHP is installed on your dev environment
-- ```php -S localhost:8080 index.php```
+```shell
+cd <project_folder>
+```
+
+**3. Install the project dependencies:**
+
+```shell
+composer install
+```
+
+**4. Start the PHP development server:**
+
+```shell
+composer serve
+```
+
+That's it! Now go build something cool.
