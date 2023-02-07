@@ -11,9 +11,9 @@
 
 
 ### Before run project, use console commands:
-- ```cd <project_folder```
+- ```cd <project_folder>```
 - ```composer install```
 
 
-### Use if only PHP is installed on your dev machine
+### Use if only PHP is installed on your dev environment
 - ```php -S localhost:8080 index.php```
