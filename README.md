@@ -4,9 +4,9 @@
 
 ### Structure description:
 - public/index.php (application entry point)
-- put your PHP classes inside **src/** folder
-- put your HTML templates inside **templates/** folder
-- put css, js, img inside **public/css/js/img/** folders
+- put your PHP classes to **src/** folder
+- put your HTML templates to **templates/** folder
+- put css, js, img files to **public/css/js/img/** folders
 
 ## Installation
 
