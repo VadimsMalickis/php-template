@@ -4,17 +4,17 @@
 
 ### Structure description:
 - public/index.php (application entry point)
-- put application code inside **src** folder
-- put your HTML templates inside **views** folder
-- put assets inside **public/assets** folder
+- put your PHP classes inside **src/** folder
+- put your HTML templates inside **templates/** folder
+- put css, js, img inside **public/css/js/img/** folders
 
 ## Installation
 
 
-**1. Clone this repository into your local machine:**
+**1. Use this repository as template for new PHP project:**
 
 ```shell
-git clone git@github.com:VadimsMalickis/php-template.git
+git clone <your_repo_url>
 ```
 
 **2. Go to the project folder:**
